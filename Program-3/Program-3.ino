@@ -1,7 +1,7 @@
 /*
   Lab 1
   Program 3
-  Mitchell Szeto, Feifan Qiao, and Bert Zhao
+  Mitchell Szeto, Feifan Qiao, Bert Zhao
   
   Turns the external LED Brick on for two second, then off for one second, repeatedly.
 
