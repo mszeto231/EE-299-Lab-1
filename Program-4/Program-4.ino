@@ -26,6 +26,7 @@
 */
 
 int LED = 8; // define the 8th digital pin for the LED brick
+// test
 
 // the setup function runs once when you press reset or power the board
 void setup() {
