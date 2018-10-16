@@ -12,20 +12,20 @@ void setup()
 
 void loop()
 {
-  if (digitalRead(button) && !ledOn) {
+  if (digitalRead(button)) {
      Wire.beginTransmission(4);         // transmit to device #4
      Wire.write(HIGH); 
      Serial.println(HIGH);
      Wire.endTransmission();
      ledOn = true;
-  } else if (digitalRead(button) && ledOn) {
+  } else {
      Wire.beginTransmission(4);         // transmit to device #4
      Wire.write(LOW); 
      Serial.println(LOW);
      Wire.endTransmission();
      ledOn = false;  
   }
-  delay(100);
+//  delay(300);
   //Wire.beginTransmission(4); 	      // transmit to device #4
   //Wire.write(HIGH);	
   
