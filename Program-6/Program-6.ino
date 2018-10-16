@@ -3,7 +3,7 @@
   Mitchell Szeto, Feifan Qiao, Bert Zhao
  
   Serial Call and Response in ASCII
- Language: Wiring/Arduino
+  Language: Wiring/Arduino
  
  This program sends an ASCII A (byte of value 65) on startup
  and repeats that until it gets some data in.

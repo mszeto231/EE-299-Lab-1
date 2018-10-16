@@ -26,7 +26,6 @@
 */
 
 int LED = 8; // define the 8th digital pin for the LED brick
-// test
 
 // the setup function runs once when you press reset or power the board
 void setup() {
@@ -37,16 +36,16 @@ void setup() {
 // the loop function runs over and over again forever
 void loop() {
   for (int i = 0; i < 2; i++) {
-    digitalWrite(LED, HIGH);  // turns the LED on
+    digitalWrite(LED, HIGH);          // turns the LED on
     delay(1000);                      // delays for one second
-    digitalWrite(LED, LOW);   // turns the LED off
+    digitalWrite(LED, LOW);           // turns the LED off
     delay(1000);                      // delays for one second
   }
   
   for (int i = 0; i < 2; i++) {
-    digitalWrite(LED, HIGH);  // turns the LED on
+    digitalWrite(LED, HIGH);          // turns the LED on
     delay(2000);                      // delays for two seconds
-    digitalWrite(LED, LOW);   // turns the LED off
+    digitalWrite(LED, LOW);           // turns the LED off
     delay(2000);                      // delays for two seconds
   }
 }

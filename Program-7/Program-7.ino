@@ -1,6 +1,9 @@
 /*
   Program 7
   Mitchell Szeto, Feifan Qiao, Bert Zhao
+
+  This program calculates the total cost of trip for a given amount of people
+  and prints the final cost in serial monitor
   
   Serial Call and Response in ASCII
  Language: Wiring/Arduino

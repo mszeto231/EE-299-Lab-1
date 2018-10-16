@@ -24,7 +24,7 @@
   http://www.arduino.cc/en/Tutorial/Blink
 */
 
-int LED = 8; //define the 8th digital pin for LED brick
+int LED = 8; // define the 8th digital pin for LED brick
 
 // the setup function runs once when you press reset or power the board
 void setup() {
