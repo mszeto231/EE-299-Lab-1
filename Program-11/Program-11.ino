@@ -1,3 +1,10 @@
+/*
+ * Lab 1 Program 11
+ * Mitchell Szeto, Feifan Qiao, Bert Zhao
+ * 
+ * 
+ */
+
 #include <Wire.h>
 void setup()
 {

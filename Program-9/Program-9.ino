@@ -1,4 +1,11 @@
 /*
+ * Lab 1 Program 9
+ * Feifan Qiao, Mitchell Szeto, Bert Zhao
+ * 
+ * This program allows two buttons to move the cursor
+ * on the display left or right. Scrolls display right
+ * or left when the cursor hits the ends
+ *  
   LiquidCrystal Library - display() and noDisplay()
 
  Demonstrates the use a 16x2 LCD display.  The LiquidCrystal
@@ -44,7 +51,6 @@
 
 // initialize the library by associating any needed LCD interface pin
 // with the arduino pin number it is connected to
-const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
 LiquidCrystal lcd(2, 3, 4, 5, 6, 7, 8);
 
 const int minColumn = 0, maxColumns = 16;
