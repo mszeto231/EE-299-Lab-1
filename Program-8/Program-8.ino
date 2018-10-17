@@ -56,7 +56,9 @@ void setup() {
   // set up the LCD's number of columns and rows:
   lcd.begin(16, 2);
   // Print a message to the LCD.
-  lcd.print("Mitchell Szeto, Feifan Qiao, Bert Zhao");
+  lcd.print("Mitchell, Feifan");
+  lcd.setCursor(0, 1);
+  lcd.print("Bert Zhao");
 }
 
 void loop() {
@@ -65,7 +67,5 @@ void loop() {
   delay(500);
   // Turn on the display:
   lcd.display();
-  // Scroll the message to the left
-  lcd.scrollDisplayLeft();
   delay(500);
 }
